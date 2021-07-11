@@ -5,3 +5,4 @@ Containers are a lightweight approach to virtualization that developers can appl
 This seminar will provide a brief introduction on how Docker works, its basic commands and will provide some examples on how to create images and containers
 
 1. [Introductory slides](https://github.com/pmanzoni/applied-IoT-Summer-2021/blob/main/slides/docker_v0.pdf)
+2. [Hands-on part](https://hackmd.io/@iotlnu/docker4iot)
