@@ -1,8 +1,8 @@
 # our base image
-FROM alpine:3.5
+FROM alpine
 
 # Install python and pip
-RUN apk add --update py2-pip
+RUN apk add --update py3-pip
 
 # upgrade pip
 RUN pip install --upgrade pip
@@ -18,4 +18,4 @@ COPY templates/index.html /usr/src/app/templates/
 EXPOSE 5000
 
 # run the application
-CMD ["python", "/usr/src/app/app.py"]
+CMD ["python3", "/usr/src/app/app.py"]
